@@ -1,0 +1,131 @@
+gnome-themes
+------------------------------------------
+Graphics for a number of GNOME Desktop themes.
+
+Runtime requirements:
+  gnome-icon-theme-2.14.1-1
+  gtk2-x11-engines-2.6.9-1
+
+Build requirements:
+  cygwin-1.5.19-4
+  cygport-0.2.0-1
+  gawk-3.1.5-2
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://art.gnome.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/gnome-themes/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-themes-2.14.2-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-themes-2.14.2-1.cygport all
+
+This will create:
+  /usr/src/gnome-themes-2.14.2-1-src.tar.bz2
+  /usr/src/gnome-themes-2.14.2-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/doc/Cygwin/gnome-themes-2.14.2.README
+  /usr/share/doc/gnome-themes-2.14.2/AUTHORS
+  /usr/share/doc/gnome-themes-2.14.2/ChangeLog
+  /usr/share/doc/gnome-themes-2.14.2/COPYING
+  /usr/share/doc/gnome-themes-2.14.2/INSTALL
+  /usr/share/doc/gnome-themes-2.14.2/NEWS
+  /usr/share/doc/gnome-themes-2.14.2/README
+  /usr/share/icons/Crux/*/*/*
+  /usr/share/icons/Crux/index.theme
+  /usr/share/icons/Flat-Blue/*/*/*
+  /usr/share/icons/Flat-Blue/index.theme
+  /usr/share/icons/HighContrast/index.theme
+  /usr/share/icons/HighContrastInverse/index.theme
+  /usr/share/icons/HighContrastLargePrint/*/*/*
+  /usr/share/icons/HighContrastLargePrint/index.theme
+  /usr/share/icons/HighContrastLargePrintInverse/*/*/*
+  /usr/share/icons/HighContrastLargePrintInverse/index.theme
+  /usr/share/icons/LargePrint/index.theme
+  /usr/share/icons/LowContrast/index.theme
+  /usr/share/icons/LowContrastLargePrint/*/*/*
+  /usr/share/icons/LowContrastLargePrint/index.theme
+  /usr/share/icons/Sandy/*/*/*
+  /usr/share/icons/Sandy/index.theme
+  /usr/share/icons/Smokey-Blue/*/*/*
+  /usr/share/icons/Smokey-Blue/index.theme
+  /usr/share/icons/Smokey-Red/*/*/*
+  /usr/share/icons/Smokey-Red/index.theme
+  /usr/share/locale/*/LC_MESSAGES/gnome-themes.mo
+  /usr/share/themes/Clearlooks/index.theme
+  /usr/share/themes/Clearlooks/metacity-1/metacity-theme-1.xml
+  /usr/share/themes/Crux/index.theme
+  /usr/share/themes/Glider/gtk-2.0/gtkrc
+  /usr/share/themes/Glider/index.theme
+  /usr/share/themes/Glider/metacity-1/metacity-theme-1.xml
+  /usr/share/themes/Grand-Canyon/gtk-2.0/*
+  /usr/share/themes/Grand-Canyon/index.theme
+  /usr/share/themes/HighContrast/gtk-2.0/gtkrc
+  /usr/share/themes/HighContrast/index.theme
+  /usr/share/themes/HighContrastInverse/gtk-2.0/gtkrc
+  /usr/share/themes/HighContrastInverse/index.theme
+  /usr/share/themes/HighContrastLargePrint/gtk-2.0/gtkrc
+  /usr/share/themes/HighContrastLargePrint/index.theme.disabled
+  /usr/share/themes/HighContrastLargePrint/pixmaps/*
+  /usr/share/themes/HighContrastLargePrintInverse/gtk-2.0/gtkrc
+  /usr/share/themes/HighContrastLargePrintInverse/index.theme.disabled
+  /usr/share/themes/HighContrastLargePrintInverse/pixmaps/*
+  /usr/share/themes/LargePrint/gtk-2.0/gtkrc
+  /usr/share/themes/LargePrint/index.theme
+  /usr/share/themes/LargePrint/pixmaps/*
+  /usr/share/themes/LowContrast/gtk-2.0/gtkrc
+  /usr/share/themes/LowContrast/index.theme.disabled
+  /usr/share/themes/LowContrastLargePrint/gtk-2.0/gtkrc
+  /usr/share/themes/LowContrastLargePrint/index.theme.disabled
+  /usr/share/themes/LowContrastLargePrint/pixmaps/*
+  /usr/share/themes/Mist/index.theme
+  /usr/share/themes/Mist/metacity-1/metacity-theme-1.xml
+  /usr/share/themes/Ocean-Dream/index.theme
+  /usr/share/themes/Sandwish/metacity-1/*
+  /usr/share/themes/Simple/gtk-2.0/gtkrc
+  /usr/share/themes/Simple/index.theme
+  /usr/share/themes/Smokey/metacity-1/*
+  /usr/share/themes/Smokey-Blue/gtk-2.0/*
+  /usr/share/themes/Smokey-Blue/index.theme
+  /usr/share/themes/Traditional/index.theme
+
+------------------
+
+Port Notes:
+
+----- version 2.14.2-1 -----
+Version bump.
+
+----- version 2.14.0-1 -----
+Version bump for GNOME 2.14.
+
+----- version 2.12.3-1 -----
+Version bump.
+
+----- version 2.12.1-1 -----
+Version bump for GNOME 2.12.
+
+----- version 2.10.1-1 -----
+Version bump for GNOME 2.10.
+The GTK+ engines previously included in gnome-themes are now included in 
+gtk2-x11-engines.
+
+----- version 2.8.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
