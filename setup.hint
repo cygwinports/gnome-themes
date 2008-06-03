@@ -1,4 +1,4 @@
 category: Gnome
-requires: cygwin gnome-icon-theme gtk2-x11-engines
+requires: gnome-icon-theme gtk2-x11-engines
 sdesc: "Graphics for a number of GNOME Desktop themes"
 ldesc: "Graphics for a number of GNOME Desktop themes"

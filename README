@@ -3,15 +3,15 @@ gnome-themes
 Graphics for a number of GNOME Desktop themes.
 
 Runtime requirements:
-  gnome-icon-theme-2.20.0-1
-  gtk2-x11-engines-2.12.2-1
+  gnome-icon-theme-2.22.0-1
+  gtk2-x11-engines-2.14.2-1
 
 Build requirements:
-  cygwin-1.5.24-2
-  cygport-0.3.7-1
-  gawk-3.1.5-4
-  icon-naming-utils-0.8.2-1
-  intltool-0.36.2-1
+  cygwin-1.5.25-11
+  cygport-0.3.11-1
+  gawk-3.1.6-1
+  icon-naming-utils-0.8.6-1
+  intltool-0.37.1-1
   make-3.81-1
   pkg-config-0.21-1
   sed-4.1.5-2
@@ -25,27 +25,26 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-themes-2.20.2-1-src.tar.bz2
+  unpack gnome-themes-2.22.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-themes-2.20.2-1.cygport all
+  cygport ./gnome-themes-2.22.2-1.cygport all
 
 This will create:
-  /usr/src/gnome-themes-2.20.2-1-src.tar.bz2
-  /usr/src/gnome-themes-2.20.2-1.tar.bz2
+  /usr/src/gnome-themes-2.22.2-1-src.tar.bz2
+  /usr/src/gnome-themes-2.22.2-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/Cygwin/gnome-themes-2.20.2.README
-  /usr/share/doc/gnome-themes-2.20.2/AUTHORS
-  /usr/share/doc/gnome-themes-2.20.2/ChangeLog
-  /usr/share/doc/gnome-themes-2.20.2/COPYING
-  /usr/share/doc/gnome-themes-2.20.2/INSTALL
-  /usr/share/doc/gnome-themes-2.20.2/NEWS
-  /usr/share/doc/gnome-themes-2.20.2/README
+  /usr/share/doc/gnome-themes-2.22.2/AUTHORS
+  /usr/share/doc/gnome-themes-2.22.2/ChangeLog
+  /usr/share/doc/gnome-themes-2.22.2/COPYING
+  /usr/share/doc/gnome-themes-2.22.2/INSTALL
+  /usr/share/doc/gnome-themes-2.22.2/NEWS
+  /usr/share/doc/gnome-themes-2.22.2/README
   /usr/share/icons/Crux/*/*/*
   /usr/share/icons/Crux/index.theme
   /usr/share/icons/Flat-Blue/*/*/*
@@ -57,9 +56,6 @@ Files included in the binary package:
   /usr/share/icons/HighContrastLargePrintInverse/*/*/*
   /usr/share/icons/HighContrastLargePrintInverse/index.theme
   /usr/share/icons/LargePrint/index.theme
-  /usr/share/icons/LowContrast/index.theme
-  /usr/share/icons/LowContrastLargePrint/*/*/*
-  /usr/share/icons/LowContrastLargePrint/index.theme
   /usr/share/icons/Sandy/*/*/*
   /usr/share/icons/Sandy/index.theme
   /usr/share/icons/Smokey-Blue/*/*/*
@@ -88,11 +84,6 @@ Files included in the binary package:
   /usr/share/themes/LargePrint/gtk-2.0/gtkrc
   /usr/share/themes/LargePrint/index.theme
   /usr/share/themes/LargePrint/pixmaps/*
-  /usr/share/themes/LowContrast/gtk-2.0/gtkrc
-  /usr/share/themes/LowContrast/index.theme.disabled
-  /usr/share/themes/LowContrastLargePrint/gtk-2.0/gtkrc
-  /usr/share/themes/LowContrastLargePrint/index.theme.disabled
-  /usr/share/themes/LowContrastLargePrint/pixmaps/*
   /usr/share/themes/Mist/index.theme
   /usr/share/themes/Mist/metacity-1/metacity-theme-1.xml
   /usr/share/themes/Ocean-Dream/index.theme
@@ -107,6 +98,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.22.2-1 -----
+Version bump for GNOME 2.22.
 
 ----- version 2.20.2-1 -----
 Version bump for GNOME 2.20.

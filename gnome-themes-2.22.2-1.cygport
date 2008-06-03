@@ -1,0 +1,6 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Desktop themes"
+HOMEPAGE="http://art.gnome.org/"
+
+DIFF_EXCLUDES="gtkrc"
