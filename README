@@ -7,8 +7,8 @@ Runtime requirements:
   gtk2.0-engines-2.18.2-1
 
 Build requirements:
-  cygwin-1.7.0-48
-  cygport-0.9.6-1
+  cygwin-1.7.0-50
+  cygport-0.9.7-1
   gawk-3.1.6-2
   icon-naming-utils-0.8.90-1
   intltool-0.40.6-1
@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-themes-2.26.2-X-src.tar.bz2
+  unpack gnome-themes-2.26.3.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-themes-2.26.2-X.cygport all
+  cygport ./gnome-themes-2.26.3.1-X.cygport all
 
 This will create:
-  /usr/src/gnome-themes-2.26.2-X-src.tar.bz2
-  /usr/src/gnome-themes-2.26.2-X.tar.bz2
+  /usr/src/gnome-themes-2.26.3.1-X-src.tar.bz2
+  /usr/src/gnome-themes-2.26.3.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -98,6 +98,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.26.3.1-1 -----
+Version bump.
 
 ----- version 2.26.2-1 -----
 Version bump.
