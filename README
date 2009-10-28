@@ -3,13 +3,13 @@ gnome-themes
 Graphics for a number of GNOME Desktop themes.
 
 Runtime requirements:
-  gnome-icon-theme-2.26.0-1
-  gtk2.0-engines-2.18.2-1
+  gnome-icon-theme-2.28.0-1
+  gtk2.0-engines-2.18.4-1
 
 Build requirements:
-  cygwin-1.7.0-50
-  cygport-0.9.7-1
-  gawk-3.1.6-2
+  cygwin-1.7.0-62
+  cygport-0.9.10-1
+  gawk-3.1.7-1
   icon-naming-utils-0.8.90-1
   intltool-0.40.6-1
   make-3.81-2
@@ -25,79 +25,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-themes-2.26.3.1-X-src.tar.bz2
+  unpack gnome-themes-2.28.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-themes-2.26.3.1-X.cygport all
+  cygport ./gnome-themes-2.28.1-X.cygport all
 
 This will create:
-  /usr/src/gnome-themes-2.26.3.1-X-src.tar.bz2
-  /usr/src/gnome-themes-2.26.3.1-X.tar.bz2
+  /usr/src/gnome-themes-2.28.1-X-src.tar.bz2
+  /usr/src/gnome-themes-2.28.1-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/share/doc/gnome-themes/AUTHORS
-  /usr/share/doc/gnome-themes/ChangeLog
-  /usr/share/doc/gnome-themes/COPYING
-  /usr/share/doc/gnome-themes/INSTALL
-  /usr/share/doc/gnome-themes/NEWS
-  /usr/share/doc/gnome-themes/README
-  /usr/share/icons/Crux/*/*/*
-  /usr/share/icons/Crux/index.theme
-  /usr/share/icons/Flat-Blue/*/*/*
-  /usr/share/icons/Flat-Blue/index.theme
-  /usr/share/icons/HighContrast/index.theme
-  /usr/share/icons/HighContrastInverse/index.theme
-  /usr/share/icons/HighContrastLargePrint/*/*/*
-  /usr/share/icons/HighContrastLargePrint/index.theme
-  /usr/share/icons/HighContrastLargePrintInverse/*/*/*
-  /usr/share/icons/HighContrastLargePrintInverse/index.theme
-  /usr/share/icons/LargePrint/index.theme
-  /usr/share/icons/Sandy/*/*/*
-  /usr/share/icons/Sandy/index.theme
-  /usr/share/icons/Smokey-Blue/*/*/*
-  /usr/share/icons/Smokey-Blue/index.theme
-  /usr/share/icons/Smokey-Red/*/*/*
-  /usr/share/icons/Smokey-Red/index.theme
-  /usr/share/locale/*/LC_MESSAGES/gnome-themes.mo
-  /usr/share/themes/Clearlooks/index.theme
-  /usr/share/themes/Clearlooks/metacity-1/metacity-theme-1.xml
-  /usr/share/themes/Crux/index.theme
-  /usr/share/themes/Glider/gtk-2.0/gtkrc
-  /usr/share/themes/Glider/index.theme
-  /usr/share/themes/Glider/metacity-1/metacity-theme-1.xml
-  /usr/share/themes/Grand-Canyon/gtk-2.0/*
-  /usr/share/themes/Grand-Canyon/index.theme
-  /usr/share/themes/HighContrast/gtk-2.0/gtkrc
-  /usr/share/themes/HighContrast/index.theme
-  /usr/share/themes/HighContrastInverse/gtk-2.0/gtkrc
-  /usr/share/themes/HighContrastInverse/index.theme
-  /usr/share/themes/HighContrastLargePrint/gtk-2.0/gtkrc
-  /usr/share/themes/HighContrastLargePrint/index.theme.disabled
-  /usr/share/themes/HighContrastLargePrint/pixmaps/*
-  /usr/share/themes/HighContrastLargePrintInverse/gtk-2.0/gtkrc
-  /usr/share/themes/HighContrastLargePrintInverse/index.theme.disabled
-  /usr/share/themes/HighContrastLargePrintInverse/pixmaps/*
-  /usr/share/themes/LargePrint/gtk-2.0/gtkrc
-  /usr/share/themes/LargePrint/index.theme
-  /usr/share/themes/LargePrint/pixmaps/*
-  /usr/share/themes/Mist/index.theme
-  /usr/share/themes/Mist/metacity-1/metacity-theme-1.xml
-  /usr/share/themes/Ocean-Dream/index.theme
-  /usr/share/themes/Sandwish/metacity-1/*
-  /usr/share/themes/Simple/gtk-2.0/gtkrc
-  /usr/share/themes/Simple/index.theme
-  /usr/share/themes/Smokey/metacity-1/*
-  /usr/share/themes/Smokey-Blue/gtk-2.0/*
-  /usr/share/themes/Smokey-Blue/index.theme
-  /usr/share/themes/Traditional/index.theme
-
-------------------
-
 Port Notes:
+
+----- version 2.28.1-1 -----
+Version bump for GNOME 2.28.
 
 ----- version 2.26.3.1-1 -----
 Version bump.
