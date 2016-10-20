@@ -1,0 +1,15 @@
+inherit gnome2
+
+NAME="gnome-themes"
+VERSION=2.32.1
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="Graphics for a number of GNOME Desktop themes"
+DESCRIPTION="Graphics for a number of GNOME Desktop themes"
+HOMEPAGE="http://art.gnome.org/"
+
+ARCH=noarch
+
+REQUIRES="gnome-icon-theme gtk2.0-engines"
+
+DIFF_EXCLUDES="gtkrc"
