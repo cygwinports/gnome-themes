@@ -1,0 +1,56 @@
+Accessibility themes are now shipped in gnome-themes-standard
+
+--- origsrc/gnome-themes-2.32.1/desktop-themes/Makefile.am	2010-11-09 06:40:32.000000000 -0600
++++ src/gnome-themes-2.32.1/desktop-themes/Makefile.am	2016-10-20 15:23:59.572491600 -0500
+@@ -3,13 +3,6 @@ SUBDIRS=		\
+ 	Clearlooks	\
+ 	Glider		\
+ 	Glossy		\
+-	HighContrast	\
+-	HighContrastInverse	\
+-	HighContrastLargePrint	\
+-	HighContrastLargePrintInverse \
+-	LargePrint	\
+-	LowContrast	\
+-	LowContrastLargePrint	\
+ 	Mist		\
+ 	$(TEST_THEMES)
+ 
+--- origsrc/gnome-themes-2.32.1/gtk-themes/Makefile.am	2010-11-09 06:40:32.000000000 -0600
++++ src/gnome-themes-2.32.1/gtk-themes/Makefile.am	2016-10-20 14:52:25.371321400 -0500
+@@ -3,14 +3,6 @@ SUBDIRS=	\
+ 	Glossy		\
+ 	ClearlooksClassic	\
+ 	Simple		\
+-	HighContrast	\
+-	HighContrastInverse	\
+-	HighContrastLargePrint	\
+-	HighContrastLargePrintInverse	\
+-	Inverted	\
+-	LowContrast	\
+-	LowContrastLargePrint	\
+-	LargePrint	\
+ 	$(TEST_THEMES)
+ 
+ DIST_SUBDIRS=		\
+--- origsrc/gnome-themes-2.32.1/icon-themes/Makefile.am	2010-11-09 06:40:33.000000000 -0600
++++ src/gnome-themes-2.32.1/icon-themes/Makefile.am	2016-10-20 14:52:48.098010300 -0500
+@@ -1,8 +1,2 @@
+ SUBDIRS=Crux \
+-	HighContrast		\
+-	HighContrastInverse	\
+-	HighContrastLargePrint	\
+-	HighContrastLargePrintInverse \
+-	HighContrast-SVG 	\
+-	LargePrint 		\
+ 	Mist 
+--- origsrc/gnome-themes-2.32.1/metacity-themes/Makefile.am	2010-11-09 06:40:33.000000000 -0600
++++ src/gnome-themes-2.32.1/metacity-themes/Makefile.am	2016-10-20 14:56:32.424972700 -0500
+@@ -3,7 +3,6 @@ THEMES= \
+ 	ClearlooksClassic \
+ 	Glider \
+ 	Glossy \
+-	Inverted \
+ 	Mist
+ 
+ THEME_DIR=$(datadir)/themes
